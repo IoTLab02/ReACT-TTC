@@ -46,7 +46,9 @@ def main() -> None:
         run_script(s)
 
     print("\nALL SCRIPTS RAN SUCCESSFULLY.")
+    print("\nAll Results are stored in results folder")
 
 
 if __name__ == "__main__":
     main()
+
