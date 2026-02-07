@@ -1,7 +1,5 @@
 import pandas as pd
 
-import os
-os.chdir(r"C:\Phd\CUDA test\Test\test 1\EV\EV_delivery\code\code_JD_data")
 
 # File path
 file_path = 'data/jd200_1.txt'
@@ -88,4 +86,5 @@ df_selected_nodes = df_nodes[selected_columns]
 
 # Save to CSV
 node_csv_path = "data/combined_data_jd200_1.csv"
+
 df_selected_nodes.to_csv(node_csv_path, index=False)
